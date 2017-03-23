@@ -1,0 +1,39 @@
+<ng-include src="'Template/Public_Tpl/header.html'"></ng-include>
+<main class="container">
+    <div class="shopcartlist" ng-repeat="shopcart in shopcartlist">
+        <a href="javascript:;">
+            <div class="shopcart_head">
+                <div class="row">
+                    <div class="col-xs-1">
+                        <img ng-src="Style/img/{{shopcart.dianpu_log}}" alt=""/>
+                    </div>
+                    <div class="col-xs-8">
+                        【{{shopcart.dianpu_name}}】&gt;
+                    </div>
+                    <div class="col-xs-3">
+                        <button type="button">编辑</button>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;">
+            <div class="shopcart_body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="media">
+                            <div class="media-left">
+                                    <img class="media-object" ng-src="Style/img/{{shopcart.good_img}}" alt="...">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">{{shopcart.good_name}}</h4>
+                                <span class="price">{{shopcart.price | currency:"￥"}}</span>
+                                <span class="count">{{shopcart.count | currency:"x"}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</main>
+<ng-include src="'Template/Public_Tpl/footer.html'"></ng-include>

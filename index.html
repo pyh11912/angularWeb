@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="template">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <link href="Style/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style/css/tpl.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="Style/js/html5shiv.min.js"></script>
+    <script src="Style/js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .bg-head{
+           background-color:#e4393c;
+        }
+        .font-white{
+            color:#fff;
+        }
+        .font-center{
+            text-align:center;
+        }
+        i{display:block;width:32px;height:32px;position:absolute;left:50%;top:40%;margin-left:-16px;margin-top:-16px;}
+        i.home{background:url("Style/img/iconfont-home.png");}
+        i.comment{background:url("Style/img/iconfont-fankuixinxi.png")}
+        i.shopcart{background:url("Style/img/iconfont-cart.png")}
+        i.user{background:url("Style/img/iconfont-user.png")}
+        #search-header a{position:relative;display:block;width:100%;height:80px;}
+        #search-header img{position:absolute;top:50%;left:50%;margin-top:-16px;margin-left:-16px;}
+        #left-bar{position:absolute;top:0;background:rgba(0,0,0,0.4);z-index:20;transition:all 3s linear;}
+        #right-bar{position:absolute;}
+        .footer-a{width:100%;height:60px;display:block;}
+        .footer-a>span{width:64px;position:absolute;top:60%;left:50%;margin-left:-32px;}
+        main{margin:80px 0;width:100%;}
+        .img-list a{display:block;width:100%;height:70px;position:relative;}
+        .img-list img{position:absolute;left:50%;margin-left:-24px;}
+        .img-list span{display:block;position:absolute;width:64px;height:10px;top:70%;left:50%;margin-left:-32px;}
+        .media{background-color:beige;}
+        #good_show{margin-top:20px;}
+        #good_show a{display:block;width:100%;height:200px;position:relative;background-color:#17b2e2;}
+        #good_show img{position:absolute;left:50%;margin-left:-44px;top:50%;margin-top:-60px;}
+        #good_show .playname{color:#000;position:absolute;width:100%;top:70%;}
+        #good_show .price{color:goldenrod;position:absolute;width:100%;top:80%;}
+        .shopcartlist{margin-bottom:10px;border-bottom:2px solid black;box-shadow:2px 0 5px 1px red; }
+        .shopcart_head{border-bottom:2px solid lightgray;}
+        .choose{display:block;width:100%;height:40px;line-height:40px;background-color:lightgray;}
+        .margin_top{margin-top:10px;}
+        .margin_bottom{margin-bottom:10px;}
+        /*.margin_right{margin-right:5px;}*/
+        .border_color{border:1px solid darkorange;}
+        .nopadding{padding:0;}
+    </style>
+
+</head>
+<body>
+
+<div class="tpl-container" ng-view></div>
+
+<script src="Style/js/jquery-1.11.3.js"></script>
+<script src="Style/js/bootstrap.min.js"></script>
+<script src="Style/js/angular.js"></script>
+<script src="Style/js/angular-route.js"></script>
+<script src="Style/js/angular-animate.js"></script>
+<script src="Controller/control.js"></script>
+<script src="Style/js/tpl.js"></script>
+</body>
+</html>

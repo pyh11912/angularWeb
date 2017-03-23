@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Controller/control.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/goods.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/news_list.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/search_list.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Data/shopcart_list.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Style/css/tpl.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Public_Tpl/footer.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Public_Tpl/goods_detail.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Public_Tpl/header.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Public_Tpl/search_box.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Public_Tpl/user_login_form.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Service_Module/News/news_list.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Service_Module/News/news_list_info.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/Service_Module/Shop_Order/my_order.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Template/main.html" charset="UTF-8" />
+  </component>
+</project>

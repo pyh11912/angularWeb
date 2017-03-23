@@ -1,0 +1,19 @@
+<ng-include src="'Template/Public_Tpl/header.html'"></ng-include>
+<main class="container">
+     <div class="row" ng-repeat="new in news" style="margin-bottom:10px;">
+       <div class="col-xs-12">
+         <a href="#/news_list_info/{{new.id}}">
+           <div class="media">
+             <div class="media-left">
+               <img class="media-object" ng-src="Style/img/{{new.url}}" alt="...">
+             </div>
+             <div class="media-body">
+               <h4 class="media-heading">{{new.title}}</h4>
+               {{new.detail}}
+             </div>
+           </div>
+         </a>
+       </div>
+     </div>
+</main>
+<ng-include src="'Template/Public_Tpl/footer.html'"></ng-include>

@@ -1,0 +1,36 @@
+<ng-include src="'Template/Public_Tpl/header.html'"></ng-include>
+<main class="container-fluid" style="margin-bottom:0;">
+     <div class="row">
+         <div class="col-xs-12">
+             <img ng-src="Style/img/{{good.good_img}}" alt="" style="width:100%;height:300px;"/>
+         </div>
+         <div class="col-xs-12">
+             <p>{{good.good_name}}</p>
+         </div>
+         <div class="col-xs-12">
+             <span style="color:goldenrod;">{{good.price|currency:'￥'}}</span>
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-xs-12" style="padding:0;">
+             <span class="choose">选择 尺码 颜色</span>
+         </div>
+     </div>
+     <div class="row margin_top">
+         <a href="javascript:;" class="btn btn-success col-xs-offset-6">立即购买</a>
+         <a href="javascript:; " class="btn btn-info">加入购物车</a>
+     </div>
+     <div class="row margin_top">
+         <div class="col-xs-12" style="padding:0;margin:0;"><h4>用户评价</h4></div>
+         <div class="col-xs-5 col-xs-offset-1 list-group" style="padding:0">
+             <div class="list-group-item font-center border_color margin_bottom">质量不错</div>
+             <div class="list-group-item font-center border_color margin_bottom">快递不错</div>
+             <div class="list-group-item font-center border_color margin_bottom">版型漂亮</div>
+         </div>
+         <div class="col-xs-5 list-group" style="padding-left:0;margin-left:10px;">
+             <div class="list-group-item font-center border_color margin_bottom">质量不错</div>
+             <div class="list-group-item font-center border_color margin_bottom">快递不错</div>
+             <div class="list-group-item font-center border_color margin_bottom">版型漂亮</div>
+         </div>
+     </div>
+</main>
